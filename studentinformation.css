@@ -24,7 +24,7 @@ firstname, lastname, dateofbirth,{
     margin-bottom: 3%;
 }
 
-parentguardian, name {
+parentguardian, {
     color: #000000;
     font-weight: bold;
     font-size: 140%;
