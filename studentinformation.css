@@ -82,3 +82,9 @@ phone[primary]:after {content: " (" attr(primary) ")"
 
 email:before {content: "e-mail: "
 }
+
+allergieshealth:before {content: attr(type) "Allergies:"
+}
+
+photopermission:before {content: attr(type) "Photo permission?"
+}
