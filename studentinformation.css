@@ -16,12 +16,19 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, name, dateofbirth, gender, age {
+firstname, lastname, name, dateofbirth, gender, parentguardian{
     color: #000000;
     font-weight: bold;
     font-size: 140%;
     display: block;
     margin-bottom: 3%;
+}
+
+address {
+  color: #000000;
+  font-size: 140%;
+  display: block;
+  margin-bottom: 3%;
 }
 
 firstname:before {content: attr(type) "First Name:"
