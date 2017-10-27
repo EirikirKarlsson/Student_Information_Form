@@ -16,7 +16,7 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, name, dateofbirth, gender, parentguardian{
+firstname, lastname, name, dateofbirth, parentguardian{
     color: #000000;
     font-weight: bold;
     font-size: 140%;
@@ -24,7 +24,7 @@ firstname, lastname, name, dateofbirth, gender, parentguardian{
     margin-bottom: 3%;
 }
 
-address {
+gender, age, address {
   color: #000000;
   font-size: 140%;
   display: block;
@@ -68,7 +68,7 @@ phone[primary]:after {content: " (" attr(primary) ")"
     font-size: 90%;
     font-weight: bold;
     display: block;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 email:before {content: "e-mail: "
