@@ -16,7 +16,7 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, name, dateofbirth, gender {
+firstname, lastname, name, dateofbirth, gender, age {
     color: #000000;
     font-weight: bold;
     font-size: 140%;
