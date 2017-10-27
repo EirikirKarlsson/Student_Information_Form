@@ -16,7 +16,7 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, student, dateofbirth, ECIname, ECIphone, ECIrelationship{
+firstname, lastname, student, dateofbirth, ECIname, ECIphone, ECIrelationship {
     color: #000000;
     font-weight: bold;
     font-size: 140%;
@@ -96,7 +96,7 @@ allergieshealth:before {content: attr(type) "Allergies: "
 photopermission:before {content: attr(type) "Photo permission? "
 }
 
-additionalinformation:before {content: attr(type) "Additonal Information? "
+additionalinformation:before {content: attr(type) "Additonal Information: "
 }
 
 transportation:before {content: attr(type) "How will your child go home from school? "
