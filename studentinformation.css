@@ -46,22 +46,22 @@ allergieshealth, photopermission, additionalinformation, transportation {
     margin-bottom: 3%;
 }
 
-firstname:before {content: attr(type) "First Name:"
+firstname:before {content: attr(type) "First Name: "
 }
 
-lastname:before {content: attr(type) "Last Name:"
+lastname:before {content: attr(type) "Last Name: "
 }
 
-gender:before {content: attr(type) "Gender:"
+gender:before {content: attr(type) "Gender: "
 }
 
-dateofbirth:before {content: attr(type) "Birthday:"
+dateofbirth:before {content: attr(type) "Birthday: "
 }
 
-age:before {content: attr(type) "Age:"
+age:before {content: attr(type) "Age: "
 }
 
-address:before {content: attr(type) "Address:"
+address:before {content: attr(type) "Address: "
 }
 
 
@@ -96,10 +96,10 @@ allergieshealth:before {content: attr(type) "Allergies: "
 photopermission:before {content: attr(type) "Photo permission? "
 }
 
-additionalinformation:before {content: attr(type) "Additonal Infmoration? "
+additionalinformation:before {content: attr(type) "Additonal Information? "
 }
 
-transportaion:before {content: attr(type) "How will your child go home from schoo? "
+transportation:before {content: attr(type) "How will your child go home from school? "
 }
 
 ECIname:before {content: attr(type) "Emergency Contact Name: "
