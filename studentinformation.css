@@ -16,7 +16,7 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, student, dateofbirth,{
+firstname, lastname, student, dateofbirth, ECIname, ECIphone, ECIrelationship{
     color: #000000;
     font-weight: bold;
     font-size: 140%;
@@ -37,6 +37,13 @@ gender, age, address {
   font-size: 140%;
   display: block;
   margin-bottom: 3%;
+}
+
+allergieshealth, photopermission, additionalinformation, transportation {
+    color: #000000;
+    font-size: 140%;
+    display: block;
+    margin-bottom: 3%;
 }
 
 firstname:before {content: attr(type) "First Name:"
