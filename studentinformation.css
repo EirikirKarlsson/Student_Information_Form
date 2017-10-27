@@ -16,12 +16,20 @@ title {
     margin-bottom: 3%;
 }
 
-firstname, lastname, name, dateofbirth, parentguardian{
+firstname, lastname, name, dateofbirth,{
     color: #000000;
     font-weight: bold;
     font-size: 140%;
     display: block;
     margin-bottom: 3%;
+}
+
+parentguardian {
+    color: #000000;
+    font-weight: bold;
+    font-size: 140%;
+    display: block;
+    margin-bottom: 1%;
 }
 
 gender, age, address {
@@ -52,7 +60,7 @@ address:before {content: attr(type) "Address:"
 
 phone {
     font-size: 90%;
-    color: #523819;
+    color: #000000;
     display: block;
     margin-top: 1%;
 }
@@ -64,10 +72,11 @@ phone[primary]:after {content: " (" attr(primary) ")"
 }
 
 email {
-    color: #0D3427;
+    color: #000000;
     font-size: 90%;
     font-weight: bold;
     display: block;
+    margin-top: 1%;
     margin-bottom: 3%;
 }
 
