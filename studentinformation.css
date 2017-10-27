@@ -90,8 +90,23 @@ phone[primary]:after {content: " (" attr(primary) ")"
 email:before {content: "e-mail: "
 }
 
-allergieshealth:before {content: attr(type) "Allergies:"
+allergieshealth:before {content: attr(type) "Allergies: "
 }
 
-photopermission:before {content: attr(type) "Photo permission?"
+photopermission:before {content: attr(type) "Photo permission? "
+}
+
+additionalinformation:before {content: attr(type) "Additonal Infmoration? "
+}
+
+transportaion:before {content: attr(type) "How will your child go home from schoo? "
+}
+
+ECIname:before {content: attr(type) "Emergency Contact Name: "
+}
+
+ECIphone:before {content: attr(type) "Emergency Contact Phone: "
+}
+
+ECIrelationship:before {content: attr(type) "Emergency Contact Relationship: "
 }
